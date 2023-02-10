@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <header class="person">
+        <div class="person-avatar">
+            <div class="person-name">TIMESHEET CALCULATOR
+            </div>
+        </div>
+    </header>
+    <section  class="tableHead">
+        <input type="text" class="orange" value="Days" disabled />
+        <input type="text" class="blue" value="Starting Time" disabled />
+        <input type="text" class="green" value="Start Break" disabled />
+        <input type="text" class="green" value="End Break" disabled />
+        <input type="text" class="blue" value="Ending Time" disabled />
+        <input type="text" class="purple" value="Total" disabled />
+    </section>
+    <section class="tableBody">
+       
+        <div class="tr" data-day="Monday"></div>
+        <div class="tr" data-day="Tuesday"></div>
+        <div class="tr" data-day="Wednesday" ></div>
+        <div class="tr" data-day="Thursday"></div>
+        <div class="tr" data-day="Friday"></div>
+        <div class="tr" data-day="Saturday"></div>
+        <div class="tr" data-day="Sunday"></div>
+      </section>
+      <section class="tableFooter">
+        <input class="red" value="Total" disabled />
+
+        <input id="totalWorkedHours" class="red" value="Work Hours" disabled />
+      </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
